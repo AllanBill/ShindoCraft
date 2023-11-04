@@ -2175,7 +2175,7 @@ v8.99
  - v8.99.2084 Fix builds without crowdin key, and installer work.
               Started moving version out of code.
               Include expected vanilla class hashes in universal so we can validate them at runtime.
- - v8.99.2083 fix up the examplemod for new FML and add a couple of extra bits.
+ - v8.99.2083 fix up the ShindoCraft for new FML and add a couple of extra bits.
  - v8.99.2082 Use latest paulscode (removes need for soundfix transformer) and fix gitignore.
  - v8.99.2081 Branding fixup.
  - v8.99.2080 Config GUI tweaks, and MCP is now part of the "minecraft" entry.
@@ -2982,7 +2982,7 @@ v8.99
  - v8.99.1434 Changed custom entity selectors from event based to factory based. (#3579)
  - v8.99.1433 Create ItemFishedEvent, the event is cancelable, but items are not mutable. Use LootTables to control that. (#3705)
  - v8.99.1432 Fix forge pipeline block shifts (#3789)
- - v8.99.1431 Add pack.mcmeta to examplemod (#3813)
+ - v8.99.1431 Add pack.mcmeta to ShindoCraft (#3813)
  - v8.99.1430 Relocate TileEntity#onLoad call to after it's added to the world instead of the chunk so as to have a valid world reference (#3836)
  - v8.99.1429 Improvements to FluidUtil (#3839)
  - v8.99.1428 Allow client commands to control whether they can be invoked without prefix. (#3847)
@@ -6601,7 +6601,7 @@ v99.99-pre
  - v99.99-pre-3498 Attempt to fix another race condition related to reading NetClientHandler.
  - v99.99-pre-3497 Added new hook to WeightedRandom.getItem that allows for use of custom rnadom generators, prevents redundant code in mods.
  - v99.99-pre-3496 Merge pull request #411 from matthewprenger/master
-                   Update ExampleMod mcmod.info
+                   Update ShindoCraft mcmod.info
  - v99.99-pre-3495 Fixed hard references in WorldGenBigTree and ForgeCommand that caused worlds to leak in the client.
  - v99.99-pre-3494 Updated FML:
                    MinecraftForge/FML@2c56c32c5aa8842cfadaf8c237396cdb75673909 Fix saving backups with the raw name. Fix air block not being assigned as the default.
@@ -6799,7 +6799,7 @@ v99.99-pre
  - v99.99-pre-3384 Fix items with color rendering incorrectly.
  - v99.99-pre-3383 Update Forge for patch changes
                    MinecraftForge/FML@064b66af3d6c92b19821b88ec26cbb59577d68b4 Prevent players from logging in until server has finished starting.
-                   MinecraftForge/FML@2aa73afa15908dadb0a033c49deb0ffefad2f265 Fix ExampleMod.java for build #1024+
+                   MinecraftForge/FML@2aa73afa15908dadb0a033c49deb0ffefad2f265 Fix ShindoCraft.java for build #1024+
                    MinecraftForge/FML@c890206268da3c594d97198f5426b52ff6b8460c Try and handle removal of mods a bit better. Currently no way to allow a world which has missing blocks to load - but i have the code in place to allow it i think.
                    MinecraftForge/FML@995c204338cd601e118396d4b4ef8feb6e759037 Fix failing to load a world with missing mod blocks and items. There will be a way to force worlds to load when stuff is missing, but for right now, it will fail as this is "world safe".
                    MinecraftForge/FML@fa5f4c884272f415933329a9e914e0b7d052e31a Some argumentation
@@ -6811,7 +6811,7 @@ v99.99-pre
  - v99.99-pre-3381 Merge pull request #373 from bloodmc/master
                    Prevent player data getting reset during disconnects.
  - v99.99-pre-3380 Merge pull request #371 from bl4ckscor3/patch-1
-                   Fix ExampleMod.java for build #1024+
+                   Fix ShindoCraft.java for build #1024+
  - v99.99-pre-3379 Prevent player dat files getting reset during disconnects.
                    Since FML nulls out the player's playerNetServerHandler during login, we need to
                    make sure that writePlayerData does not attempt to overwrite the player's dat file
@@ -6825,7 +6825,7 @@ v99.99-pre
                    when stuff is missing, but for right now, it will fail as this is "world safe".
  - v99.99-pre-3372 Try and handle removal of mods a bit better. Currently no way to allow a world which has missing
                    blocks to load - but i have the code in place to allow it i think.
- - v99.99-pre-3371 Fix ExampleMod.java for build #1024+
+ - v99.99-pre-3371 Fix ShindoCraft.java for build #1024+
  - v99.99-pre-3370 Fix AIOOB error with Endermen and blocks >256. Also better support for ID remapping. More to come later.
  - v99.99-pre-3369 Prevent players from logging in until server has finished starting.
                    This improves server security as it guarantees no players will be
