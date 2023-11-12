@@ -1,6 +1,8 @@
 package net.shindo.shindocraft.Block;
 
 import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.material.Material;
+import net.minecraftforge.common.ToolType;
 import net.shindo.shindocraft.ShindoCraft;
 import net.shindo.shindocraft.item.ModItemGroup;
 import net.shindo.shindocraft.item.ModItems;
@@ -19,7 +21,8 @@ public class ModBlocks {
            = DeferredRegister.create(ForgeRegistries.BLOCKS, ShindoCraft.MOD_ID);
 
     public static final RegistryObject<Block> PERGAMINHOS_VERMELHO = registerBlock("pergaminhos_vermelho",
-            () -> new Block(AbstractBlock.Properties.create()))
+            () -> new Block(Block.Properties.of(Material.WOOD).strength(4f, 1200f).harvestLevel(2).harvestTool(ToolType.AXE).lightLevel((state) -> 1)));
+
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {

@@ -1,5 +1,6 @@
 package net.shindo.shindocraft;
 
+import net.shindo.shindocraft.Block.ModBlocks;
 import net.shindo.shindocraft.item.ModItems;
 import net.shindo.shindocraft.paintings.ModPaintings;
 import net.minecraft.block.Block;
@@ -36,6 +37,7 @@ public class ShindoCraft
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
