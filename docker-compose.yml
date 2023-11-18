@@ -1,15 +1,15 @@
 version: '3'
 services:
   minecraft-mod:
+    user: "minecraft"
     build:
       context: .
     volumes:
-      - .:/app
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ~/.Xauthority:/root/.Xauthority
+      - ~/.Xauthority:/home/minecraft/.Xauthority
     network_mode: "host"
     environment:
       - DISPLAY=${DISPLAY}
-      - XAUTHORITY=~/.Xauthority
+      - XAUTHORITY=/home/minecraft/.Xauthority
       - EULA=true
     command: ./gradlew runClient --scan
