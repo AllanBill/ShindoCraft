@@ -1,0 +1,14 @@
+.gradle
+build
+run
+.dockerignore
+.gitattributes
+.gitignore
+changelog.txt
+CREDITS.txt
+Dockerfile
+docker-compose.yml
+gradlew.bat
+LICENSE.txt
+README.md
+start-docker.sh
