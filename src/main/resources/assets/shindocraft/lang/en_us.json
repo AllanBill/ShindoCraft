@@ -1,11 +1,15 @@
 {
   "item.shindocraft.emblema_vila_da_areia": "Emblema Vila da Areia" ,
 
-  "block.shindocraft.pergaminhos_vermelho": "Pergaminhos Vermelho",
+  "block.shindocraft.pergaminhos_folha": "Pergaminhos Folha",
 
-  "block.shindocraft.pergaminhos_amarelo": "Pergaminhos Amarelo",
+  "block.shindocraft.pergaminhos_areia": "Pergaminhos Areia",
 
-  "block.shindocraft.pergaminhos_roxo": "Pergaminhos Roxo",
+  "block.shindocraft.pergaminhos_lua": "Pergaminhos Lua",
+
+  "block.shindocraft.pergaminhos_chuva": "Pergaminhos Chuva",
+
+  "block.shindocraft.pergaminhos_estrela": "Pergaminhos Estrela",
 
   "itemGroup.ShindoCraftModTab": "ShindoCraft"
 }

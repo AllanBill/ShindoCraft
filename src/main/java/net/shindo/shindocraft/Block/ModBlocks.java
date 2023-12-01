@@ -20,13 +20,19 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS
            = DeferredRegister.create(ForgeRegistries.BLOCKS, ShindoCraft.MOD_ID);
 
-    public static final RegistryObject<Block> PERGAMINHOS_VERMELHO = registerBlock("pergaminhos_vermelho",
+    public static final RegistryObject<Block> PERGAMINHOS_FOLHA = registerBlock("pergaminhos_folha",
             () -> new Block(Block.Properties.of(Material.WOOD).noCollission().strength(4f, 1200f).harvestLevel(2).harvestTool(ToolType.AXE).lightLevel((state) -> 1)));
 
-    public static final RegistryObject<Block> PERGAMINHOS_AMARELO = registerBlock("pergaminhos_amarelo",
+    public static final RegistryObject<Block> PERGAMINHOS_AREIA = registerBlock("pergaminhos_areia",
             () -> new Block(Block.Properties.of(Material.WOOD).noCollission().strength(4f, 1200f).harvestLevel(2).harvestTool(ToolType.AXE).lightLevel((state) -> 1)));
 
-    public static final RegistryObject<Block> PERGAMINHOS_ROXO = registerBlock("pergaminhos_roxo",
+    public static final RegistryObject<Block> PERGAMINHOS_LUA = registerBlock("pergaminhos_lua",
+            () -> new Block(Block.Properties.of(Material.WOOD).noCollission().strength(4f, 1200f).harvestLevel(2).harvestTool(ToolType.AXE).lightLevel((state) -> 1)));
+
+    public static final RegistryObject<Block> PERGAMINHOS_CHUVA = registerBlock("pergaminhos_chuva",
+            () -> new Block(Block.Properties.of(Material.WOOD).noCollission().strength(4f, 1200f).harvestLevel(2).harvestTool(ToolType.AXE).lightLevel((state) -> 1)));
+
+    public static final RegistryObject<Block> PERGAMINHOS_ESTRELA = registerBlock("pergaminhos_estrela",
             () -> new Block(Block.Properties.of(Material.WOOD).noCollission().strength(4f, 1200f).harvestLevel(2).harvestTool(ToolType.AXE).lightLevel((state) -> 1)));
 
 
