@@ -21,7 +21,15 @@ public class ModBlocks {
            = DeferredRegister.create(ForgeRegistries.BLOCKS, ShindoCraft.MOD_ID);
 
     public static final RegistryObject<Block> PERGAMINHOS_VERMELHO = registerBlock("pergaminhos_vermelho",
-            () -> new Block(Block.Properties.of(Material.WOOD).strength(4f, 1200f).harvestLevel(2).harvestTool(ToolType.AXE).lightLevel((state) -> 1)));
+            () -> new Block(Block.Properties.of(Material.WOOD).noCollission().strength(4f, 1200f).harvestLevel(2).harvestTool(ToolType.AXE).lightLevel((state) -> 1)));
+
+    public static final RegistryObject<Block> PERGAMINHOS_AMARELO = registerBlock("pergaminhos_amarelo",
+            () -> new Block(Block.Properties.of(Material.WOOD).noCollission().strength(4f, 1200f).harvestLevel(2).harvestTool(ToolType.AXE).lightLevel((state) -> 1)));
+
+    public static final RegistryObject<Block> PERGAMINHOS_ROXO = registerBlock("pergaminhos_roxo",
+            () -> new Block(Block.Properties.of(Material.WOOD).noCollission().strength(4f, 1200f).harvestLevel(2).harvestTool(ToolType.AXE).lightLevel((state) -> 1)));
+
+
 
 
 

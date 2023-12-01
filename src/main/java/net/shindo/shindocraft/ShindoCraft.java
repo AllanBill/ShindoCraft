@@ -1,5 +1,8 @@
 package net.shindo.shindocraft;
 
+import com.mojang.realmsclient.client.RealmsError;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.shindo.shindocraft.Block.ModBlocks;
 import net.shindo.shindocraft.item.ModItems;
 import net.shindo.shindocraft.paintings.ModPaintings;
