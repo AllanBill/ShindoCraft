@@ -1,0 +1,149 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"layer0": "shindocraft:item/cabo1",
+		"layer1": "shindocraft:item/cabo2",
+		"layer2": "shindocraft:item/cabo3",
+		"layer3": "shindocraft:item/cabo4",
+		"layer4": "shindocraft:item/bainha1",
+		"layer5": "shindocraft:item/bainha",
+		"layer6": "shindocraft:item/bainha3"
+	},
+	"elements": [
+		{
+			"name": "cabo1",
+			"from": [7, 0, 7],
+			"to": [8, 7, 7.7],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 14], "texture": "#layer0"},
+				"east": {"uv": [4, 0, 5.5, 14], "texture": "#layer0"},
+				"south": {"uv": [2, 0, 4, 14], "texture": "#layer0"},
+				"west": {"uv": [6, 0, 7.5, 14], "texture": "#layer0"},
+				"up": {"uv": [10, 1.5, 8, 0], "texture": "#layer0"},
+				"down": {"uv": [10, 2, 8, 3.5], "texture": "#layer0"}
+			}
+		},
+		{
+			"name": "cabo2",
+			"from": [7, 0, 8.3],
+			"to": [8, 7, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 14], "texture": "#layer1"},
+				"east": {"uv": [4, 0, 5.5, 14], "texture": "#layer1"},
+				"south": {"uv": [2, 0, 4, 14], "texture": "#layer1"},
+				"west": {"uv": [6, 0, 7.5, 14], "texture": "#layer1"},
+				"up": {"uv": [10, 1.5, 8, 0], "texture": "#layer1"},
+				"down": {"uv": [10, 2, 8, 3.5], "texture": "#layer1"}
+			}
+		},
+		{
+			"name": "cabo3",
+			"from": [7.025, 0, 7.7],
+			"to": [7.975, 7, 8.3],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 14], "texture": "#layer2"},
+				"east": {"uv": [4, 0, 5, 14], "texture": "#layer2"},
+				"south": {"uv": [2, 0, 4, 14], "texture": "#layer2"},
+				"west": {"uv": [6, 0, 7, 14], "texture": "#layer2"},
+				"up": {"uv": [10, 1, 8, 0], "texture": "#layer2"},
+				"down": {"uv": [10, 2, 8, 3], "texture": "#layer2"}
+			}
+		},
+		{
+			"name": "cabo4",
+			"from": [7.05, 7, 7.05],
+			"to": [7.95, 7.1, 8.95],
+			"faces": {
+				"north": {"uv": [8, 4, 12, 5], "texture": "#layer3"},
+				"east": {"uv": [0, 8, 8, 9], "texture": "#layer3"},
+				"south": {"uv": [8, 8, 12, 9], "texture": "#layer3"},
+				"west": {"uv": [8, 0, 16, 1], "texture": "#layer3"},
+				"up": {"uv": [4, 8, 0, 0], "texture": "#layer3"},
+				"down": {"uv": [8, 0, 4, 8], "texture": "#layer3"}
+			}
+		},
+		{
+			"name": "bainha1",
+			"from": [7, 7.1, 7],
+			"to": [8, 32, 7.7],
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 12.5], "texture": "#layer5"},
+				"east": {"uv": [1, 0, 1.375, 12.5], "texture": "#layer5"},
+				"south": {"uv": [0.5, 0, 1, 12.5], "texture": "#layer5"},
+				"west": {"uv": [1.5, 0, 1.875, 12.5], "texture": "#layer5"},
+				"up": {"uv": [2.5, 0.375, 2, 0], "texture": "#layer5"},
+				"down": {"uv": [2.5, 0.5, 2, 0.875], "texture": "#layer5"}
+			}
+		},
+		{
+			"name": "bainha2",
+			"from": [7, 7.1, 8.3],
+			"to": [8, 32, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 12.5], "texture": "#layer4"},
+				"east": {"uv": [1, 0, 1.375, 12.5], "texture": "#layer4"},
+				"south": {"uv": [0.5, 0, 1, 12.5], "texture": "#layer4"},
+				"west": {"uv": [1.5, 0, 1.875, 12.5], "texture": "#layer4"},
+				"up": {"uv": [2.5, 0.375, 2, 0], "texture": "#layer4"},
+				"down": {"uv": [2.5, 0.5, 2, 0.875], "texture": "#layer4"}
+			}
+		},
+		{
+			"name": "bainha3",
+			"from": [7.025, 7.1, 7.7],
+			"to": [7.975, 32, 8.3],
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 12.5], "texture": "#layer6"},
+				"east": {"uv": [0.5, 0, 1, 12.5], "texture": "#layer6"},
+				"south": {"uv": [1, 0, 1.5, 12.5], "texture": "#layer6"},
+				"west": {"uv": [1.5, 0, 2, 12.5], "texture": "#layer6"},
+				"up": {"uv": [2.5, 0.5, 2, 0], "texture": "#layer6"},
+				"down": {"uv": [2.5, 0.5, 2, 1], "texture": "#layer6"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2.75, 0.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2.75, 0.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [-19.5, 0, 0],
+			"translation": [2.25, -1.75, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-19.5, 0, 0],
+			"translation": [2.25, -1.75, 1.25]
+		},
+		"ground": {
+			"rotation": [-90, -90, 0],
+			"translation": [-0.5, 0, 2.5]
+		},
+		"gui": {
+			"rotation": [90, -45, 90],
+			"translation": [4.25, -4.25, 0],
+			"scale": [1, 0.7168, 0.90234]
+		},
+		"fixed": {
+			"rotation": [-90, -38.5, -90],
+			"translation": [-6.5, -5.5, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "cabo",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		},
+		{
+			"name": "bainha",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [4, 5, 6]
+		}
+	]
+}

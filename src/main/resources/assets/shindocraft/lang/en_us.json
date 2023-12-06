@@ -1,6 +1,10 @@
 {
   "item.shindocraft.emblema_vila_da_areia": "Emblema Vila da Areia" ,
 
+  "item.shindocraft.kusanagi_no_tsurugi_em": "Kusanagi no Tsurugi Embanhada" ,
+
+  "item.shindocraft.kusanagi_no_tsurugi_des": "Kusanagi no Tsurugi Desembanhada",
+
   "block.shindocraft.pergaminhos_folha": "Pergaminhos Folha",
 
   "block.shindocraft.pergaminhos_areia": "Pergaminhos Areia",
@@ -10,6 +14,16 @@
   "block.shindocraft.pergaminhos_chuva": "Pergaminhos Chuva",
 
   "block.shindocraft.pergaminhos_estrela": "Pergaminhos Estrela",
+
+  "block.shindocraft.pergaminhos_nuvem": "Pergaminhos Nuvem",
+
+  "block.shindocraft.pergaminhos_neve": "Pergaminhos Neve",
+
+  "block.shindocraft.pergaminhos_nevoa": "Pergaminhos Nevoa",
+
+  "block.shindocraft.pergaminhos_som": "Pergaminhos Som",
+
+  "block.shindocraft.pergaminhos_pedra": "Pergaminhos Pedra",
 
   "itemGroup.ShindoCraftModTab": "ShindoCraft"
 }
