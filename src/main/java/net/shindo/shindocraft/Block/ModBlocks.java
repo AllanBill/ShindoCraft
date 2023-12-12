@@ -1,6 +1,4 @@
 package net.shindo.shindocraft.Block;
-
-import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 import net.shindo.shindocraft.ShindoCraft;
