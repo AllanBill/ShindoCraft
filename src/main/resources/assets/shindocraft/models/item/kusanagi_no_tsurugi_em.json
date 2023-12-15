@@ -2,13 +2,13 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"layer0": "shindocraft:item/cabo1",
-		"layer1": "shindocraft:item/cabo2",
-		"layer2": "shindocraft:item/cabo3",
-		"layer3": "shindocraft:item/cabo4",
-		"layer4": "shindocraft:item/bainha1",
-		"layer5": "shindocraft:item/bainha",
-		"layer6": "shindocraft:item/bainha3"
+		"layer0": "shindocraft:item/kusanagi_no_tsurugi/cabo1",
+		"layer1": "shindocraft:item/kusanagi_no_tsurugi/cabo2",
+		"layer2": "shindocraft:item/kusanagi_no_tsurugi/cabo3",
+		"layer3": "shindocraft:item/kusanagi_no_tsurugi/cabo4",
+		"layer4": "shindocraft:item/kusanagi_no_tsurugi/bainha1",
+		"layer5": "shindocraft:item/kusanagi_no_tsurugi/bainha",
+		"layer6": "shindocraft:item/kusanagi_no_tsurugi/bainha3"
 	},
 	"elements": [
 		{

@@ -8,9 +8,13 @@ import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
 
-    KUSANAGI_NO_TSURUGI(4, 4000, 9, 1, 15, () -> {
+    KUSANAGI_NO_TSURUGI(4, 999999999, 9, 1, 15, () -> {
         return Ingredient.of(ModItems.EMBLEMA_VILA_DA_AREIA.get());
-    });
+    }),
+
+    SHIBUKI(4, 999999999, 9, 1, 15, () -> {
+      return Ingredient.of(ModItems.EMBLEMA_VILA_DA_AREIA.get());
+  });
     
 
    private final int level;

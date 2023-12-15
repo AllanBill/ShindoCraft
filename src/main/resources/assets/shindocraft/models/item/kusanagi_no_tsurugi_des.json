@@ -2,19 +2,19 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [4, 4],
 	"textures": {
-		"layer0": "shindocraft:item/1cabo",
-		"layer1": "shindocraft:item/2cabo",
-		"layer2": "shindocraft:item/3cabo",
-		"layer3": "shindocraft:item/4cabo",
-		"layer4": "shindocraft:item/lamina1",
-		"layer5": "shindocraft:item/lamina2",
-		"layer6": "shindocraft:item/lamina3",
-		"layer7": "shindocraft:item/lamina4",
-		"layer8": "shindocraft:item/lamina5",
-		"layer9": "shindocraft:item/lamina6",
-		"layer10": "shindocraft:item/lamina7",
-		"layer11": "shindocraft:item/lamina8",
-		"layer12": "shindocraft:item/lamina9"
+		"layer0": "shindocraft:item/kusanagi_no_tsurugi/1cabo",
+		"layer1": "shindocraft:item/kusanagi_no_tsurugi/2cabo",
+		"layer2": "shindocraft:item/kusanagi_no_tsurugi/3cabo",
+		"layer3": "shindocraft:item/kusanagi_no_tsurugi/4cabo",
+		"layer4": "shindocraft:item/kusanagi_no_tsurugi/lamina1",
+		"layer5": "shindocraft:item/kusanagi_no_tsurugi/lamina2",
+		"layer6": "shindocraft:item/kusanagi_no_tsurugi/lamina3",
+		"layer7": "shindocraft:item/kusanagi_no_tsurugi/lamina4",
+		"layer8": "shindocraft:item/kusanagi_no_tsurugi/lamina5",
+		"layer9": "shindocraft:item/kusanagi_no_tsurugi/lamina6",
+		"layer10": "shindocraft:item/kusanagi_no_tsurugi/lamina7",
+		"layer11": "shindocraft:item/kusanagi_no_tsurugi/lamina8",
+		"layer12": "shindocraft:item/kusanagi_no_tsurugi/lamina9"
 	},
 	"elements": [
 		{

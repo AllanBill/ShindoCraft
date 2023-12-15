@@ -23,6 +23,14 @@ public class ModItems {
                         () -> new SwordItem(ModItemTier.KUSANAGI_NO_TSURUGI, 13, 4f,
                                         new Item.Properties().tab(ModItemGroup.SHINDOCRAFT_GROUP)));
 
+        public static final RegistryObject<Item> SHIBUKI = ITEMS.register("shibuki",
+                        () -> new SwordItem(ModItemTier.SHIBUKI, 18, 20f,
+                                        new Item.Properties().tab(ModItemGroup.SHINDOCRAFT_GROUP)));
+
+        public static final RegistryObject<Item> NUIBARI = ITEMS.register("nuibari",
+                        () -> new SwordItem(ModItemTier.SHIBUKI, 8, 1f,
+                                        new Item.Properties().tab(ModItemGroup.SHINDOCRAFT_GROUP)));
+
         public static void register(IEventBus eventBus) {
                 ITEMS.register(eventBus);
         }
