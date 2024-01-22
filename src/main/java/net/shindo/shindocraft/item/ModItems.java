@@ -24,11 +24,27 @@ public class ModItems {
                                         new Item.Properties().tab(ModItemGroup.SHINDOCRAFT_GROUP)));
 
         public static final RegistryObject<Item> SHIBUKI = ITEMS.register("shibuki",
-                        () -> new SwordItem(ModItemTier.SHIBUKI, 18, 20f,
+                        () -> new SwordItem(ModItemTier.SHIBUKI, 18, -3f,
                                         new Item.Properties().tab(ModItemGroup.SHINDOCRAFT_GROUP)));
 
         public static final RegistryObject<Item> NUIBARI = ITEMS.register("nuibari",
                         () -> new SwordItem(ModItemTier.SHIBUKI, 8, 1f,
+                                        new Item.Properties().tab(ModItemGroup.SHINDOCRAFT_GROUP)));
+
+        public static final RegistryObject<Item> HIRAMEKAREI = ITEMS.register("hiramekarei",
+                        () -> new SwordItem(ModItemTier.HIRAMEKAREI, 8, 1f,
+                                        new Item.Properties().tab(ModItemGroup.SHINDOCRAFT_GROUP)));                               
+
+        public static final RegistryObject<Item> KIBA = ITEMS.register("kiba",
+                        () -> new SwordItem(ModItemTier.KIBA, 13, 3f,
+                                        new Item.Properties().tab(ModItemGroup.SHINDOCRAFT_GROUP)));
+
+        public static final RegistryObject<Item> KABUTOWARI_MACHADO = ITEMS.register("kabutowari_machado",
+                        () -> new SwordItem(ModItemTier.KABUTOWARI, 10, 3f,
+                                        new Item.Properties().tab(ModItemGroup.SHINDOCRAFT_GROUP)));
+
+        public static final RegistryObject<Item> KABUTOWARI_MARTELO = ITEMS.register("kabutowari_martelo",
+                        () -> new SwordItem(ModItemTier.KABUTOWARI, 3, 5f,
                                         new Item.Properties().tab(ModItemGroup.SHINDOCRAFT_GROUP)));
 
         public static void register(IEventBus eventBus) {
