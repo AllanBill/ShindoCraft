@@ -22,7 +22,11 @@ public enum ModItemTier implements IItemTier {
 
    HIRAMEKAREI(4, 999999999, 9, 1, 15, () -> {
       return Ingredient.of(ModItems.EMBLEMA_VILA_DA_AREIA.get());
-     }),
+   }),
+
+   SAMEHADA(4, 999999999, 9, 1, 15, () -> {
+      return Ingredient.of(ModItems.EMBLEMA_VILA_DA_AREIA.get());
+   }),
     SHIBUKI(4, 999999999, 9, 1, 15, () -> {
       return Ingredient.of(ModItems.EMBLEMA_VILA_DA_AREIA.get());
   });

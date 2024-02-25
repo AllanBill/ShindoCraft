@@ -39,6 +39,10 @@ public class ModItems {
                         () -> new SwordItem(ModItemTier.KIBA, 13, 3f,
                                         new Item.Properties().tab(ModItemGroup.SHINDOCRAFT_GROUP)));
 
+        public static final RegistryObject<Item> SAMEHADA = ITEMS.register("samehada",
+                        () -> new SwordItem(ModItemTier.SAMEHADA, 13, 3f,
+                                        new Item.Properties().tab(ModItemGroup.SHINDOCRAFT_GROUP)));
+
         public static final RegistryObject<Item> KABUTOWARI_MACHADO = ITEMS.register("kabutowari_machado",
                         () -> new SwordItem(ModItemTier.KABUTOWARI, 10, 3f,
                                         new Item.Properties().tab(ModItemGroup.SHINDOCRAFT_GROUP)));
